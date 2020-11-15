@@ -1,0 +1,284 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	font-size: 15px;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	background: #2C3539;
+	justify-content: center;
+	padding: 0;
+	padding: 15px 20px;
+	margin: 0;
+	
+}
+ul li a{
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+ul li a:hover{
+	background: #3D2A26;
+	color: white;
+	border-bottom: 2px solid green;
+}
+h1 p a{
+	padding: 0;
+	font-family: 'tahoma';
+	margin: 0;
+
+}
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  
+  
+}
+.banner {
+  width: 100%;
+  padding: 200px;
+  text-align: center;
+  background-image: url(../img/image1.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.btn1 {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px; 
+}
+
+.btn1:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.middle-part{
+	display: flex;
+	color: black; 
+	text-align: center; 
+	padding: 0 auto 0 auto; 
+	margin: 5px;"
+
+}
+
+.layout i{
+	font-size: 50px;
+	margin: 10px 10px;
+}
+
+.banner1 {
+  width: 100%;
+  padding: 200px;
+  text-align: center;
+  background-image: url("../img/image9.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+	align-items: center;
+	width: 100%;
+	overflow: none;
+}
+.text1{
+ 	float: left;
+	width: 50%;
+  	padding: 20px;
+}
+.btn2 {
+	font-size: 20px;
+	display: inline-block;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: 300;
+	margin-top: 30px; 
+}
+.btn2:hover {
+  	background-color: black;
+  	color: white;
+	border: 1px solid black;
+}
+.text2{
+	float: left;
+	width: 50%;
+	padding: 20px;
+	font-size: 20px;
+	display: inline-block;
+	border: 1px solid white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: 300;
+	/*margin-top: 30px; */
+}
+
+.a .wrapper {
+  width: 100%;
+  padding: 100px;
+  text-align: center;
+  background-image: url("../img/image10.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+h2 p{
+	text-align: center;
+}
+.middle-text h2{
+	text-align: center;
+	padding: 100px 20px;
+	margin: 20px;
+}
+.middle-text h2 p{
+	text-align: center;
+	padding: 100px 20px;
+	margin: 20px;
+}
+ .gallery{
+ font-size: 30px;
+ text-align: center;
+ padding: 60px 20px;
+ display: flex;
+ align-content: center;
+
+}
+.gallery h4 p{
+	display: flex;
+}
+.gallery p{
+	display: flex;
+	text-align: center;
+}
+.b{
+	text-align: center;
+	margin: auto;
+	padding: 150px 200px;
+	margin: 10px;
+}
+.row {
+  display: flexbox; /* IE10 */
+  display: flex;
+  flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  display: flex;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+.row1 img{
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+.row1{
+	flex-wrap: wrap;
+	text-align: center;
+
+}
+.row1 p{
+	color: white;
+}
+.box-1{
+	display: inline-block;
+	padding: 3px 3px;
+}
+#bottom{
+	background-color: #2C3539;
+	padding: 30px;
+	text-align: center;
+	border: none;
+	color: white;
+}
+main{
+	flex:70%;
+	background: #fff;
+	padding: 20px;
+}
+
+#fname{
+	padding: 5px;
+	border-radius: 10px;
+  	cursor: pointer;
+}
+footer{
+	padding: 30px;
+	color: #fff;
+	background: black;
+	text-align: center;
+}
+@media screen and (max-width: 600px){
+	.navbar{
+		width: 100%;
+	}
+	.banner{
+		width: 100%;
+	}
+	.middle-part{
+		width: 100%;
+	}
+	.banner1{
+		width: 100%;
+	}
+}
